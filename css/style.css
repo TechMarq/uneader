@@ -12,9 +12,10 @@
 }
 
 body {
-    background-color: white;
+    background: url(../img/bg_uneader.png);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:500px;
+    background-attachment:fixed;
     font-family: 'Poppins', sans-serif;
     color: var(--blue1);
 }
@@ -63,6 +64,8 @@ body {
 h1{
     font-size: 20px;
     text-shadow: 0 0 20px var(--blue2);
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 footer{
@@ -105,4 +108,22 @@ h2,h3{
     font-size:larger;
     color: var(--blue2);
     padding: 30px;
+    -webkit-text-stroke-width: thin;
+}
+
+p{
+    margin: 0px 10px 30px;
+    -webkit-text-stroke-width:inherit;
+    text-shadow: 0 0 black;
+}
+.img-equipe img{
+    width: 100%;
+}
+
+.estatic{
+    position: absolute;
+    background: white;
+}
+.estatic:hover{
+    opacity: 0;
 }
